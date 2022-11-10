@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  width: 100vw;
+  background-color: brown;
+  justify-content: flex;
+}
+
+.item-1 {
+  background-color: beige;
+}
+
+.item-2 {
+  background-color: aqua;
+}
+
+.item-3 {
+  background-color: blue;
+}
