@@ -1,0 +1,50 @@
+.container {
+  display: grid;
+  /* grid-template-columns: (2, 10rem); */
+  /* grid-template-columns: repeat(auto-fit, 10rem); */
+  row-gap: 3rem;
+}
+
+* {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+body {
+  max-width: 1000px;
+  min-width: 54px;
+  margin: auto;
+}
+
+.Text {
+  max-width: 650px;
+  text-align: justify;
+  font-size: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.poster {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 100%; */
+}
+
+h1 {
+  color: white;
+  background-color: black;
+  padding: 30px;
+  text-align: center;
+  font-size: 50px;
+}
+
+.main {
+  columns: 2;
+}
+
+@media screen and (max-width: 600px) {
+  .main {
+    columns: 1;
+  }
+}
