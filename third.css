@@ -1,6 +1,7 @@
 .container {
   display: grid;
   grid-template-columns: repeat(auto-fit, 10rem);
+
   column-gap: 16rem;
   row-gap: 10rem;
 }
@@ -8,6 +9,7 @@
 body {
   max-width: 1000px;
   margin: auto;
+  background-color: rgb(196, 174, 173);
 }
 
 /* @media screen and {min-width: 400px)
@@ -26,7 +28,7 @@ body {
   text-align: center;
   vertical-align: middle;
   line-height: 60px;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(196, 174, 173);
   color: rgb(0, 0, 0);
   font-size: 17px;
   font-weight: bolder;
