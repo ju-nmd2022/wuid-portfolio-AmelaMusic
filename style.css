@@ -17,18 +17,12 @@ h3 {
 body {
   margin: 0px;
   padding: 0px;
-  background-color: rgb(192, 192, 192);
+  background-color: rgb(255, 255, 255);
 }
 
 * {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-
-/* .image {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-} */
 
 .profile {
   display: block;
