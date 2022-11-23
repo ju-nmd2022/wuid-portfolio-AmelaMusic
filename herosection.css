@@ -1,0 +1,89 @@
+h1 {
+  margin-top: 5px;
+  font-size: 100px;
+  text-align: center;
+  animation-name: headline;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+/* https://codetheweb.blog/fullscreen-image-hero/ */
+
+.hero {
+  background-image: url(pexels-simon-berger-1323550.jpg);
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+  text-align: center;
+}
+
+.hero .aboutme,
+.jkpg,
+.mywork {
+  display: block;
+  width: 200px;
+
+  padding: 1em;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+
+  font-size: 18px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 20px;
+
+  background-color: rgba(147, 112, 219, 0.6);
+}
+
+@keyframes headline {
+  from {
+    color: rgb(48, 55, 55, 0.5);
+  }
+  to {
+    color: rgb(147, 92, 198, 0.9);
+  }
+  0% {
+    transform: scale(1);
+  }
+  10% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* https://www.geeksforgeeks.org/css-animation-to-change-the-hover-state-of-a-button-image/ */
+
+.aboutme:hover {
+  animation-name: background-color;
+  animation-duration: 500ms;
+}
+
+.jkpg:hover {
+  animation-name: background-color;
+  animation-duration: 500ms;
+}
+
+.mywork:hover {
+  animation-name: background-color;
+  animation-duration: 500ms;
+}
+
+@keyframes background-color {
+  100% {
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+}
